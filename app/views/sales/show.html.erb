@@ -1,0 +1,5 @@
+<div class="c-section">
+  <h1 class="c-title c-title--large"><%= @book.title %></h1>
+  <h4 class="c-title"><%= @book.authors.pluck(:name).join(", ") %></h4>
+  <h4 class="c-title c-title--tiny"><%= @book.price %></h4>
+</div>
